@@ -16,19 +16,19 @@ The table that will be inserted into the `readme.md` will have the following str
 
 ### Section 1 title
 
-| Name      | Description             | Default        |
-|:----------|:------------------------|:---------------|
-| `value_1` | Description for value 1 | `defaultValue` |
-| `value_2` | Description for value 2 | `defaultValue` |
-| `value_3` | Description for value 3 | `defaultValue` |
+| Name      | Form title | Description             | Default        |
+|:----------|:-----------|:------------------------|:---------------|
+| `value_1` | value1     |Description for value 1 | `defaultValue` |
+| `value_2` | value2     |Description for value 2 | `defaultValue` |
+| `value_3` | value3     |Description for value 3 | `defaultValue` |
 
 ### Section 2 title
 
-| Name      | Description             | Default        |
-|:----------|:------------------------|:---------------|
-| `value_1` | Description for value 1 | `defaultValue` |
-| `value_2` | Description for value 2 | `defaultValue` |
-| `value_3` | Description for value 3 | `defaultValue` |
+| Name      | Form title | Description             | Default        |
+|:----------|:-----------:------------------------|:---------------|
+| `value_1` | value1     | Description for value 1 | `defaultValue` |
+| `value_2` | value2     | Description for value 2 | `defaultValue` |
+| `value_3` | value3     | Description for value 3 | `defaultValue` |
 
 ...
 ```
@@ -85,7 +85,7 @@ By default we use a format similar to Javadoc, using `@xxx` for tags followed by
 
 The following are the tags supported at this very moment:
 
-- For a parameter: `## @param fullKeyPath [modifier?] Description`.
+- For a parameter: `## @param fullKeyPath [m#modifier] [t#title] Description`.
 - For a section: `## @section Section Title"`.
 - To skip an object and all its children: `## @skip fullKeyPath`.
 - To add a description for an intermediate object (i.e. not final in the YAML tree): `## @extra fullkeyPath Description`.
